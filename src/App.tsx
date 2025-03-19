@@ -1,9 +1,6 @@
-import React from 'react';
-import { Hero } from './components/Hero';
-import { Services } from './components/Services';
-import { Pricing } from './components/Pricing';
-import { UserSearch } from './components/UserSearch';
-import { Contact } from './components/Contact';
+import { Hero } from "./components/Hero";
+import { Services } from "./components/Services";
+import { UserSearch } from "./components/UserSearch";
 
 function App() {
   return (
@@ -11,8 +8,6 @@ function App() {
       <Hero />
       <Services />
       <UserSearch />
-      <Pricing />
-      <Contact />
     </div>
   );
 }
